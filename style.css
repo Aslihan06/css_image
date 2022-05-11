@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/tree.webp);
+    background-image: url(./tree.webp);
     background-color: black;
     background-position: 0 10%;
     background-repeat: no-repeat;
