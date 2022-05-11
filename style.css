@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/tree.webp);
+    background-color: black;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-style: bold;
+    font-size: 50px;
+    padding-bottom: 5px;
+    font-family: 'Koulen', cursive;
+}
+h2{
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.btn{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%);
+}
+.btn span{
+    height: 10px;
+    width: 90px;
+    border: 2px solid ;
+    background-color: gray;
+    border-radius: 4px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.btn span:hover{
+    background-color: red;
+}
